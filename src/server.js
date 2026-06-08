@@ -14,6 +14,9 @@ const usuarios = [
   { id: 3, nombre: 'Pedro' },
 ];
 
-// TODO: Define tus rutas aquí
+// Ruta raíz
+app.get('/', (req, res) => {
+  res.send('Bienvenid@s a nuestro servidor Express!');
+});
 
 module.exports = app;
